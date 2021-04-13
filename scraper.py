@@ -3,6 +3,10 @@ import string
 import os
 from bs4 import BeautifulSoup
 
+# Program to scrape the website www.nature.com
+# Program could be modified and used to scrape other websites
+# Inputs are number of pages to search and the type of article to be found
+
 url = 'https://www.nature.com/nature/articles?page='
 link_url = 'https://www.nature.com'
 intab = string.punctuation
